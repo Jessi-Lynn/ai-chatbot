@@ -1,0 +1,15 @@
+# Initialize git in your project folder
+git init
+
+# Create .gitignore file
+echo ".env
+__pycache__/
+.streamlit/
+*.pyc
+.DS_Store" > .gitignore
+
+# Add your files
+git add app.py requirements.txt .gitignore README.md
+
+# Create your first commit
+git commit -m "Initial commit"
